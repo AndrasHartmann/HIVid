@@ -27,7 +27,8 @@
 %     dataset or to the steady-state values determined by the parameters,
 %     see Tools/init values...
 %   - The covariances can be determined using smoothing the dataset in
-%     the least square sense. To do this apply Tools/Smoothing
+%     the least square sense. To do this apply Tools/Smoothing.
+%     This function needs CVX to be installed, see http://cvxr.com/cvx/
 %   - Identfication using EKF or PF can be applied under Tools/Identification 
 %
 % Examples
