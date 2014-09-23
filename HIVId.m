@@ -60,6 +60,11 @@ guidata(hObject, handles);
 % UIWAIT makes HIVId wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
+%Write some license info to output
+licensestr =' HIVId  Copyright (C) 2012  Andras Hartmann, ahartmann@kdbio.inesc-id.pt\n This program comes with ABSOLUTELY NO WARRANTY;\n For details read license file attached to this program.\n This is free software, and you are welcome to redistribute it under certain conditions\n'; 
+
+fprintf(licensestr);
+
 
 % --- Outputs from this function are returned to the command line.
 function varargout = HIVId_OutputFcn(hObject, eventdata, handles)
